@@ -1,6 +1,6 @@
-USBPcap - USB Packet capture for Windows
+# USBPcap - USB Packet capture for Windows
 
-End-user installer is available at: http://desowin.org/usbpcap
+End-user installer is available at: https://desowin.org/usbpcap
 Following informations are intended for developers and power users only.
 
 Directory overview:
@@ -9,7 +9,7 @@ Directory overview:
 
 Build instructions:
   Download and install Windows Driver Kit 7.1.0 from Microsoft
-    http://www.microsoft.com/en-us/download/details.aspx?id=11800
+    https://www.microsoft.com/en-us/download/details.aspx?id=11800
 
   Adjust driver_build_win7_64bit.bat (first line of that file):
     * To change to checked build: replace 'fre' with 'chk'
